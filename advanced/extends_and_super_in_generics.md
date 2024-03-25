@@ -1,4 +1,4 @@
-# 泛型中的 extends 和 super
+# 泛型中的 extends 和 super 关键字
 
 ## 简介：
 
