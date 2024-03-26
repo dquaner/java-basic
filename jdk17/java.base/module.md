@@ -1,7 +1,6 @@
 ---
 description: >-
-  ref: [Module
-  java.base](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/module-summary.html)
+  Module `java.base`: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/module-summary.html
 ---
 
 # java.base
@@ -32,7 +31,7 @@ description: >-
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
 | [java.io](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/package-summary.html)                           | 通过数据流、序列化和文件系统提供系统输入和输出。 |
 | [java.lang](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/package-summary.html)                       | 提供对Java编程语言的设计至关重要的类。    |
-| [java.lang.annotation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/package-summary.html) | 为Java编程语言的注释功能提供库支持。     |
+| [java.lang.annotation](java.lang.annotation.md) | 为Java编程语言的注释功能提供库支持。     |
 | ...                                                                                                                            | ...                      |
 {% endtab %}
 {% endtabs %}

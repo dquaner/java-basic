@@ -1,14 +1,13 @@
 ---
 description: >-
-  ref: [Package java.lang.annotation
-  ](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/package-summary.html)
+  Package `java.lang.annotation`: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/package-summary.html
 ---
 
 # java.lang.annotation
 
 为Java编程语言的注释功能提供库支持。
 
-### Since:&#x20;
+### Since:
 
 1.5
 
