@@ -2,10 +2,9 @@
 
 ## ADVANCED
 
-* [泛型中的 extends 和 super 关键字](advanced/extends_and_super_in_generics.md)
+* [泛型中的 extends 和 super 关键字](README.md)
 
-## JDK 17 Module
+## JDK17
 
-### java.base
-
-* [Package java.lang.annotation](jdk17doc/java.base/java.lang.annotation.md)
+* [java.base](jdk17/java.base/README.md)
+  * [java.lang.annotation](jdk17/java.base/java.lang.annotation.md)

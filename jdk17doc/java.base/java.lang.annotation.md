@@ -1,2 +1,0 @@
-# Package java.lang.annotation
-
