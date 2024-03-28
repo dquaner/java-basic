@@ -6,7 +6,7 @@
 
 ## JDK17
 
-* [java.base](jdk17/java.base/README.md)
+* [java.base](jdk17/java.base/module.md)
   * [java.lang.annotation](jdk17/java.base/java.lang.annotation/README.md)
     * [Documented](jdk17/java.base/java.lang.annotation/documented.md)
     * [Target](jdk17/java.base/java.lang.annotation/target.md)
