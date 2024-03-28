@@ -2,7 +2,7 @@
 
 ## ADVANCED
 
-* [泛型中的 extends 和 super 关键字](advanced/extendsAndSuperInGenerics.md)
+* [泛型中的 extends 和 super 关键字](README.md)
 
 ## JDK17
 
