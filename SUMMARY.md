@@ -10,6 +10,7 @@
 ## ADVANCED
 
 * [泛型中的 extends 和 super 关键字](advanced/extendsAndSuperInGenericType.md)
+* [内存泄漏和内存溢出](advanced/nei-cun-xie-lou-he-nei-cun-yi-chu.md)
 
 ## JDK17
 
