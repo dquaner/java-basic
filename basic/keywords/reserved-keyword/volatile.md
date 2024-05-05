@@ -108,7 +108,7 @@ Java 内存模型，是 Java 虚拟机规范中所定义的一种内存模型，
 
 在多处理器系统中，每个处理器都有自己的高速缓存，而它们又共享同一主内存（MainMemory）。
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>现代计算机内存模型</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>现代计算机内存模型</p></figcaption></figure>
 
 ### 2. 然后我们可以聊一下 JMM 了
 
@@ -126,7 +126,7 @@ Java 内存模型，是 Java 虚拟机规范中所定义的一种内存模型，
 
 #### 本地内存和主内存的关系
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>工作内存和主内存的关系</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>工作内存和主内存的关系</p></figcaption></figure>
 
 正是因为这样的机制，才导致了**可见性问题**的存在，那我们就讨论下可见性的解决方案。
 
@@ -254,7 +254,7 @@ public class TestTread extends Thread {
 
 #### **重排序的类型**
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>源码到最终执行经过的重排序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>源码到最终执行经过的重排序</p></figcaption></figure>
 
 一个好的内存模型实际上会放松对处理器和编译器规则的束缚，也就是说软件技术和硬件技术都为同一个目标而奋斗：**在不改变程序执行结果的前提下，尽可能提高执行效率。**
 
@@ -282,17 +282,17 @@ JMM 对底层尽量减少约束，使其能够发挥自身优势。
 
 为了实现 volatile 的内存语义，JMM 会限制特定类型的编译器和处理器重排序，JMM 针对编译器制定了 volatile 重排序规则表：
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>volatile 重排序规则表</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>volatile 重排序规则表</p></figcaption></figure>
 
 需要注意的是：volatile 写操作是在前面和后面**分别插入内存屏障**，而 volatile 读操作是在**后面插入两个内存屏障**。
 
 **volatile 写操作：**
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>volatile 写内存屏障</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>volatile 写内存屏障</p></figcaption></figure>
 
 **volatile 读操作：**
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>volatile 读内存屏障</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>volatile 读内存屏障</p></figcaption></figure>
 
 上面的我提过重排序原则，为了提高处理速度，JVM会对代码进行编译优化，也就是指令重排序优化，**并发编程下指令重排序会带来一些安全隐患**：如指令重排序导致的多个线程操作之间的不可见性。
 
