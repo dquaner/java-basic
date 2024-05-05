@@ -14,7 +14,7 @@ description: https://blog.csdn.net/m0_62436868/article/details/130318943
 
 如下图，当 Y 生命周期结束的时候，X 依然引用着 Y，这时候，垃圾回收期是不会回收对象 Y 的；如果对象 X 还引用着生命周期比较短的 A、B、C，对象 A 又引用着对象 D、E、F，这样就可能造成大量无用的对象不能被回收，进而占据了内存资源，造成内存泄漏，直到内存溢出。
 
-<figure><img src="../.gitbook/assets/memoryleak2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/memoryleak2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 申请了内存用完了不释放，比如一共有1024M的内存，分配了512M的内存一直不回收，那么可以用的内存只有512M了，仿佛泄露掉了一部分。
 
