@@ -238,7 +238,7 @@ public void syncTask();
 
 **Tip**：本来锁升级的过程我是搞了个贼详细贼复杂的图，但是我发现不便于理解，我就幼儿园化了，所以就有了个简单版本的，先看下复杂版本的：
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>锁升级过程</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/v2-2f709f54dee1cd0dd90611964584e605_r.jpg" alt=""><figcaption><p>锁升级过程</p></figcaption></figure>
 
 幼儿园版本：
 
