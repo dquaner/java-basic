@@ -4,7 +4,7 @@ description: Java Language Keywords
 
 # Keywords
 
-[ReservedKeyword](basic/keywords/reserved-keyword/):
+[ReservedKeyword](basic/keywords/reserved-keyword/README.md):
 
 (one of)
 
@@ -22,7 +22,7 @@ const      float      native       super       while
 _ (underscore)
 ```
 
-[ContextualKeyword](basic/keywords/contextual-keyword.md):
+[ContextualKeyword](basic/keywords/contextual-keyword/README.md):
 
 (one of)
 
