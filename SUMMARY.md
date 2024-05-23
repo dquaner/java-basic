@@ -2,12 +2,12 @@
 
 ## Basic
 
-* [Keywords](README.md)
+* [Keywords](basic/keywords/README.md)
   * [Reserved Keyword](basic/keywords/reserved-keyword/README.md)
     * [default](basic/keywords/reserved-keyword/default.md)
     * [synchronized](basic/keywords/reserved-keyword/synchronized.md)
     * [volatile](basic/keywords/reserved-keyword/volatile.md)
-  * [Contextual Keyword](basic/keywords/contextual-keyword.md)
+  * [Contextual Keyword](basic/keywords/contextual-keyword/README.md)
 
 ## ADVANCED
 
@@ -17,7 +17,7 @@
 
 ## JDK17
 
-* [java.base](jdk17/java.base/readme.md)
+* [java.base](jdk17/java.base/README.md)
   * [java.lang.annotation](jdk17/java.base/java.lang.annotation/README.md)
     * [Documented](jdk17/java.base/java.lang.annotation/documented.md)
     * [Target](jdk17/java.base/java.lang.annotation/target.md)
