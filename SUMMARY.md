@@ -2,7 +2,7 @@
 
 ## Basic
 
-* [Keywords](basic/keywords/README.md)
+* [Keywords](README.md)
   * [Reserved Keyword](basic/keywords/reserved-keyword/README.md)
     * [default](basic/keywords/reserved-keyword/default.md)
     * [synchronized](basic/keywords/reserved-keyword/synchronized.md)
